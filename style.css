@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-content {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header-content p{
+    font-size: 24px;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+  
+}
+.logo-container img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 50%;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+.nav-links a:hover {
+    background-color: #000000;
+    color: #fcfcfc;
+}
+.hero-section {
+    background-color: #ffffff;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    border: 2px solid #000000;
+    align-items: center
+    
+}
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+.header-text h1 {
+    font-size: 36px;
+    text-decoration: bold;
+    color: #000000;
+   text-align: left;
+}
+.header-text a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 25px;
+    margin-top: 20px;
+    display: inline-block;
+
+}
+.header-image-container img {
+    width: 100%;
+    height: auto;
+}
+.footer-content {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: left;
+
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.footer-links a{
+    display:flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #000000;
+    align-items: stretch;
+}
